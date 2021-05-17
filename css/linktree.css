@@ -1,0 +1,32 @@
+.bg {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-image: url("../images/bg.jpg");
+    background-size:cover;
+    background-position: no-repeat center center fixed;
+}
+#side{
+        margin: auto;
+        width: 75%;
+        padding: 10px;
+}
+#button{
+    padding: 20px;
+    vertical-align: middle;
+}
+#btn1{
+    width:100%;
+    background-color: rgba(0,0,0,0.3);
+}
+h5{
+    color:aliceblue;
+}
+#logo{
+    padding: 5px;
+    vertical-align: middle;
+}
+
+#cards{
+    padding:8px;
+}
