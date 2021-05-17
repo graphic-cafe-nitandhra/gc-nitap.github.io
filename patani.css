@@ -1,0 +1,57 @@
+		.dropdown{
+			padding-top: 1px;
+			color: #00ffdc;
+    		font-size: 10px;
+    		font-weight: 500;
+		}
+		.dropdown nav{
+			width: 400px;
+			height: 60px;
+			background: #fff;
+			
+		}
+		.dorpdown nav ul {
+			float: left;
+			padding: 0;
+			margin: 0;
+			margin-right: 30px;
+		}
+		.dropdown nav ul li{
+			background: white;
+			display: inline-block;
+			list-style: none;
+			position: relative;
+		}
+		.dropdown nav ul li a{
+			display: block;
+			padding: 0 5px;
+			color:  #002142;
+			text-decoration: none;
+			line-height: 60px;
+			font-size: 20px;
+
+		}
+		.dropdown nav ul li a:hover{
+				color: #00ffdd;
+		}
+		.dropdown nav ul ul{
+			position: absolute;
+			top: 60px;
+			display: none;
+		}
+		.dropdown nav ul li:hover>ul{
+			display: block;
+		}
+		.dropdown nav ul ul li{
+			width: 150px;
+			float: none;
+			display: list-item;
+			position: relative;
+		}
+		.nav ul li a:hover i{
+			transform: rotate(-180deg);
+		}
+		.dropdown nav ul ul li a:hover i{
+			
+			transform: rotate(-180deg);
+		}
