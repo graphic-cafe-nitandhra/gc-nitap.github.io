@@ -1,0 +1,361 @@
+#toTop{
+	background:#002142;
+}
+.index-1 .block-1 {
+    padding-top: 120px;
+}
+.index-1 .block-1 h2 {
+    margin-bottom: 5px;
+    margin-top: 40px;
+}
+.index-1 .block-2 h2 {
+    color: #ffffff;
+    margin-bottom: 105px;
+}
+h2 span:before {
+    height: 0px;
+    position: absolute;
+    bottom: 7px;
+    background: #000;
+    width: 100%;
+    content: "";
+    display: block;
+    left: 0;
+}
+h2 span {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: top;
+    color: #002142;
+    font-weight: 300;
+}
+h2{
+	font-size: 36px;
+}
+}
+
+.index-1 .block-2 {
+    padding: 60px 0 90px;
+    background: url(images/index_img_par.jpg);
+    background-attachment: fixed;
+    background-position: center 0%;
+    position: relative;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    z-index: 8;
+}
+.box{
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.content: {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 10px;
+	perspective: 1000px;
+}
+.img-area{
+width: 100%;
+height: 300px;
+padding: 20px;
+transition: all .5s ease;
+background-size: cover;
+background-position: center center;
+}
+.img1{
+	background-image:url("../images/vibin.jpg");
+}
+.img2{
+	background-image:url("../images/monish.jpg");
+}
+.img3{
+	background-image:url("../images/rana.jpg");
+}
+.img4{
+	background-image:url("../images/sohitha.jpg");
+}
+.img5{
+	background-image:url("../images/kaushik.jpg");
+}
+.img6{
+	background-image:url("../images/sumanth.jpg");
+}
+.info{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	opacity: 0;
+	height: 300px;
+	width: 100%;
+	padding:20px; 
+	text-align: center;
+	transition: all 4s ease;
+	background: #002142;
+	backface-visibility: hidden;
+	transform-style: preserve-3d;
+	transform: translateY(150) rotateX(-90deg);
+}
+.content .info h4{
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	border-bottom: 2px solid  #fff;
+	padding: 10px;
+
+}
+.team-member-designation{
+	color: #f3f3f3;
+	font-size: 17px;
+	font-weight: 700;
+	margin: 0;
+	padding: 15px;
+}
+.social-list{
+	padding-left: 0;
+}
+.social-list i{
+font-size:15px;
+margin: 20px 5px;
+}
+.icon-gray i{
+	color: #64707b;
+}
+.content:hover .img-area{
+	opacity: 0;
+	transform: translateY(-150);
+	transform: rotateX(90deg);
+}
+
+.content:hover .info{
+	opacity: 1;
+	transform: rotateX(0);
+}
+.owl-carousel .owl-item {
+    float: left;
+    margin: 10px;
+}
+.navbar{
+	display: block;
+	margin-top: 103px;
+	background-color:white;
+	border-bottom: 0px;
+	font-weight: 2rem;
+}
+.navbar-brand{
+	margin-right: 13px;
+}
+.navbar-nav {
+	width: 50%;
+}
+.nav{
+	display: block;
+}
+.navbar-nav  li{
+margin-right: 2%;
+display: block;
+}
+.navbar-inverse .navbar-brand {
+	  color: #002142;
+	  font-weight: bold;
+}	
+.navbar-inverse .navbar-brand:hover {
+	  color: #00ffdd;
+	  font-weight: bold;
+
+}	
+.navbar-inverse .navbar-nav>li>a {
+font-weight: 540;
+color: #002142;
+text-shadow:  0px .2px .2px  #00ffdd;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+font-weight: 540;
+color: #00ffdd;
+transform: rotate(360deg);
+border-bottom:.5px solid rgba(0,33,66,.3);
+border-right:.5px solid rgba(0,33,66,.3);
+box-shadow: .3px .3px #00ffdd;
+border-radius: 5px;
+}
+#header h1 a:hover{
+	text-decoration: none;
+}
+.sf-menu > li > a:hover{
+	text-decoration: none;
+}
+h2 span:before{
+	bottom: 0px;
+	background:none;
+}
+}
+
+p{
+margin-top:10%; 
+padding-bottom: 7%;
+}
+.nav ul {
+		position: absolute;
+		top: 60px;
+		display: none;
+		width:300px;
+}
+.nav li:hover>ul{
+display: block;
+}
+.nav ul li a{
+color:  #002142;
+text-decoration: none;
+text-shadow:  0px .2px .2px  #00ffdd;
+}
+.nav ul li a:hover{
+color: rgba(0,255,221,.5);
+text-shadow: 0px 3px 2px  #002142;
+}
+.img_container img {
+width: 100%;
+vertical-align: center;
+}
+.End{
+font-size: 3rem;
+text-align: center;
+padding-left: 20%;
+}
+.selected{
+color: #00ffdd;
+}
+@media(max-width: 980px){
+	.navbar{
+		margin-top: -10px;
+		position: relative; 
+		}
+}
+@media(max-width: 1080px){
+	.nav>li>a {
+ 	padding: 15px 5px; 
+	}
+
+}
+@media(max-width: 768px){
+.navbar-header{
+	display: none;
+	}
+
+}
+.preffix_1 {
+	    margin-top: 30px;
+}
+.Our-Agenda{
+	vertical-align: center;
+}
+@media(max-width: 1199px){
+.End{
+	padding-left: 3%;
+}
+}
+@media(max-width: 980px ){
+.img_container img{
+	padding-top: 30%;
+}
+.index-1 .block-1 {
+	   padding: 0px 0 125px;
+}
+}
+@media (max-width: 768px){
+.img_container img {
+	padding-top: 1%;
+}
+}
+.jumbotron{
+	position:relative;
+	text-align:center;
+	margin-bottom:0px
+}
+#footer {
+  background: #002142;
+  padding: 100px 0 0;
+  color: #000000;
+}
+
+#footer h2 span{
+  background: #002142;
+  padding: 100px 0 0;
+  color: #000000;
+  font-size: 40px;
+}
+#footer a {
+  color: inherit;
+}
+#footer a:hover {
+  text-decoration: underline;
+}
+#footer .copyright {
+  text-align: center;
+}
+#footer .copyright .btn {
+  	width: 94px;
+    height: 94px;
+    line-height: 94px;
+    font-size: 60px;
+    color: #423e3e;
+    background: #fff;
+    border: none;
+    margin: 30px 50px;
+    font: 24px/46px 'Open Sans', sans-serif;
+    text-align: center;
+    text-transform: uppercase
+}
+#footer .copyright .btn span {
+  line-height: 94px;
+
+}
+#footer .copyright .btn:hover {
+  background: #423e3e;
+  color: #fff;
+}
+#footer .copyright pre {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin-bottom: 10px;
+  background: #002142;
+  border: 0px solid;
+}
+#footer .footer_bottom {
+  height: 35px;
+  text-align: center;
+}
+#footer .fa{
+	font-size: 35px;
+	text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  #footer .copyright .btn {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    margin: 30px 25px;
+  }
+}
+.bd-ra {
+    border-radius: 50%;
+}
+@media only screen and (max-width: 479px) {
+  #footer .copyright .btn {
+    display: block;
+    margin: 20px auto;
+  }
+}
+
+#footer {
+  background: #002142;
+  padding: 100px 0 0;
+  color: #000000;
+}
+}
