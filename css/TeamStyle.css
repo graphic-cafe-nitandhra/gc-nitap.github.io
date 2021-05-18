@@ -40,7 +40,7 @@ h2{
 
 .index-1 .block-2 {
     padding: 60px 0 90px;
-    background: url(images/index_img_par.jpg);
+    background: url(images/DSC_0371.jpg);
     background-attachment: fixed;
     background-position: center 0%;
     position: relative;
@@ -78,6 +78,9 @@ background-position: center center;
 }
 .img6{
 	background-image:url("../images/sumanth.jpg");
+}
+.img7{
+	background-image:url("../images/hriman.jpeg");
 }
 .info{
 	position: absolute;
